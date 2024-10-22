@@ -6,23 +6,50 @@
     <title>Weather App Project</title>
   </head>
   <body>
-    <header>
-      <h1></h1>
-    </header>
-    <main></main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Khalipa-B" target="_blank">Khalipa Baba</a>,
-      is
-      <a
-        href="https://github.com/Khalipa-B/my-first-weather-app"
-        target="_blank"
-        >open-sourced on Github</a
-      >
-      and
-      <a href="https://khalipa-weather-project.netlify.app" target="_blank">
-        hosted on Netlify.</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="Search" class="search-form-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Paris</h1>
+            <p class="weather-app-details">
+              Tuesday 14:55, scattered clouds
+              <br />
+              Humidity: <strong>71%</strong>, Wind: <strong>3.09km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">☀</div>
+            <div class="weather-app-temperature">17</div>
+            <div class="weather-app-unit">°C</div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Khalipa-B" target="_blank">Khalipa Baba</a>,
+        is
+        <a
+          href="https://github.com/Khalipa-B/my-first-weather-app"
+          target="_blank"
+          >open-sourced on Github</a
+        >
+        and
+        <a href="https://khalipa-weather-project.netlify.app" target="_blank">
+          hosted on Netlify.</a
+        >
+      </footer>
+    </div>
   </body>
 </html>
